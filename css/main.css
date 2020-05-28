@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/* CSS Document */
+
 body, html {
   text-align: center;
   font-family: Gotham, Helvetica, Arial, sans-serif;
@@ -10,9 +13,45 @@ section {
 }
 
 h1 {
+  color: #7b7d70;
   font-size: 2em;
 }
 
 h2 {
+  color: #4eafb8;
   font-size: 1.5em;
+}
+
+p {
+  color: #ff8641;
+}
+
+/*---------- TABLET ----------*/
+@media only screen and (min-width: 768px) {
+  h1 {
+    color: #02cbd2;
+  }
+
+  h2 {
+    color: #fcc02a;
+  }
+
+  p {
+    color: #7b8f8e;
+  }
+}
+
+/*---------- DESKTOPS ----------*/
+@media only screen and (min-width: 1200px) {
+  h1 {
+    color: #6e4b61;
+  }
+
+  h2 {
+    color: #cabd61;
+  }
+
+  p {
+    color: #c19e74;
+  }
 }
